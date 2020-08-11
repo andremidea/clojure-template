@@ -1,0 +1,124 @@
+; This is the Calva evaluation results output window.
+; Leave it open, please. Because quirks.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+; Jacking in...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: You can edit the contents here. Use it as a REPL if you like.
+;   Use `alt+enter` to evaluate the current top level form.
+;   (`ctrl+enter` evaluates the current form.)
+;   File URLs in stacktrace frames are peekable and clickable.
+; Debugger initialized
+clj::user=> 
+; Jack-in done.
+; Evaluating file: logic_test.clj
+#'ascii-toc-parser.logic-test/enrich-headings-test
+clj::ascii-toc-parser.logic-test=> 
+#'ascii-toc-parser.logic-test/parse-line-test
+clj::ascii-toc-parser.logic-test=> 
+nil
+clj::ascii-toc-parser.logic-test=> 
+#'ascii-toc-parser.logic-test/parse-line-test
+clj::ascii-toc-parser.logic-test=> 
+; Evaluating file: logic_test.clj
+#'ascii-toc-parser.logic-test/enrich-headings-test
+clj::ascii-toc-parser.logic-test=> 
+; Evaluating file: logic_test.clj
+#'ascii-toc-parser.logic-test/enrich-headings-test
+clj::ascii-toc-parser.logic-test=> 
+; Running test: add-prefix-test…
+; 2 tests finished, all passing 👍, ns: 1, vars: 1
+#'ascii-toc-parser.logic-test/add-prefix-test
+clj::ascii-toc-parser.logic-test=> 
+; Evaluating file: logic_test.clj
+#'ascii-toc-parser.logic-test/enrich-headings-test
+clj::ascii-toc-parser.logic-test=> 
+; Running previously failed tests…
+; No tests found. 😱, ns: 0, vars: 0
+; Running all project tests…
+clj::user=> 
+; 36 tests finished, all passing 👍, ns: 1, vars: 10
+clj::user=> 
+; Running all project tests…
+clj::user=> 
+; 36 tests finished, all passing 👍, ns: 1, vars: 10
+clj::user=> 
+; Evaluating file: logic_test.clj
+#'ascii-toc-parser.logic-test/enrich-headings-test
+clj::ascii-toc-parser.logic-test=> 
+; Running test: parse-line-test…
+; 3 tests finished, all passing 👍, ns: 1, vars: 1
+; Evaluating file: logic_test.clj
+#'ascii-toc-parser.logic-test/enrich-headings-test
+clj::ascii-toc-parser.logic-test=> 
+; Running test: parse-line-test…
+; 3 tests finished, all passing 👍, ns: 1, vars: 1
+; Evaluating file: logic_test.clj
+#'ascii-toc-parser.logic-test/enrich-headings-test
+clj::ascii-toc-parser.logic-test=> 
+; Running test: add-prefix-test…
+; 2 tests finished, all passing 👍, ns: 1, vars: 1
+; Evaluating file: logic_test.clj
+#'ascii-toc-parser.logic-test/enrich-headings-test
+clj::ascii-toc-parser.logic-test=> 
+; Running test: add-spacer-test…
+; 5 tests finished, all passing 👍, ns: 1, vars: 1
+nil
+clj::clojure-template.logic=> 
+nil
+clj::clojure-template.logic-test=> 
+#'clojure-template.logic/logic
+clj::clojure-template.logic=> 
+#'clojure-template.logic-test/logic-test
+clj::clojure-template.logic-test=> 
+; Evaluating file: logic_test.clj
+#'clojure-template.logic-test/logic-test
+clj::clojure-template.logic-test=> 
+; Running test: logic-test…
+; 1 tests finished, all passing 👍, ns: 1, vars: 1
+; Evaluating file: logic_test.clj
+#'clojure-template.logic-test/logic-test
+clj::clojure-template.logic-test=> 
+; Running test: logic-test…
+; 1 tests finished, all passing 👍, ns: 1, vars: 1
+#'clojure-template.logic-test/logic-test
+clj::clojure-template.logic-test=> 
+
+(+ 1 1)
+2
+clj::clojure-template.logic-test=> 
+#'clojure-template.logic-test/logic-test
+clj::clojure-template.logic-test=> 
+; Evaluating file: logic_test.clj
+#'clojure-template.logic-test/logic-test
+clj::clojure-template.logic-test=> 
+; Running test: logic-test…
+; 1 tests finished, all passing 👍, ns: 1, vars: 1
+; Evaluating file: logic_test.clj
+#'clojure-template.logic-test/logic-test
+clj::clojure-template.logic-test=> 
+; Running test: logic-test…
+; FAIL in clojure-template.logic-test/logic-test (logic_test.clj:10):
+; split text
+;   expected: (match? (logic/logic "abc dfg") ["abc" "dfag"])
+;   actual: {:summary
+ (not
+  (matcher-combinators.clj-test/match? ["abc" "dfg"] ["abc" "dfag"])),
+ :match-result
+ #:matcher-combinators.result{:type :mismatch,
+                              :value
+                              ["abc"
+                               {:expected "dfg", :actual "dfag"}],
+                              :weight 1}}
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+; Evaluating file: logic_test.clj
+#'clojure-template.logic-test/logic-test
+clj::clojure-template.logic-test=> 
+; Running test: logic-test…
+; 1 tests finished, all passing 👍, ns: 1, vars: 1
+nil
+clj::clojure-template.main=> 
+#'clojure-template.main/-main
+clj::clojure-template.main=> 
